@@ -20,8 +20,8 @@ def convereTudo(segundos):
     hr = min // 60
     mint = min % 60 #minutos
 
-    d = hr // 24
     hrt = hr % 24 #horas
+    d = hr // 24 #dias
 
     return d,"d",hrt,"h", mint,"m", st,"s"
 
