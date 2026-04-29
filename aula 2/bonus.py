@@ -18,4 +18,4 @@ if velocidade > 110:
         
     print("Valor a pagar", pagar,"\nObrigado!",nome)
 else:
-    print("Muito bem
+    print("Muito bem")
