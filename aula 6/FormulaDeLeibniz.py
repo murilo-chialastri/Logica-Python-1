@@ -1,3 +1,4 @@
+
 def pi(x):
     j = 0
     l = doisEmDois(x)
@@ -24,7 +25,5 @@ def doisEmDois(z):
     return lista
 
 
-
-
-
-print(pi(2203) * 4)
+#634 vezes para chegar em 3,14
+print(pi(623) * 4)
