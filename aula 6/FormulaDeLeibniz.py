@@ -10,13 +10,11 @@ def pi(x):
         j += 1
     return res
 
-
 def troca(y):
     if y % 2 == 0:
         return -1
     else:
         return +1
-
 
 def doisEmDois(z):
     lista = []
@@ -24,6 +22,5 @@ def doisEmDois(z):
         lista.append(i)
     return lista
 
-
 #634 vezes para chegar em 3,14
-print(pi(623) * 4)
+print(pi(634) * 4)
